@@ -8,7 +8,7 @@ use screenshots::Screen;
 use std::time::Duration;
 use std::io::Cursor;
 
-const BASE_URL: &str = "https://parish-mighty-destinations-accurately.trycloudflare.com";
+const BASE_URL: &str = "https://********.trycloudflare.com";
 
 #[derive(Deserialize, Serialize, Debug)]
 struct RemoteCommand {
